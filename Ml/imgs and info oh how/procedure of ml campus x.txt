@@ -1,0 +1,51 @@
+Module 1: Preprocessing & Feature Engineering (~11 Videos)
+Real-world ML is 80% data cleaning. These videos teach you how to prevent data leakage and handle dirty datasets.
+
+ Day 24 & 25: Missing Value Imputation (Complete Case Analysis, Mean/Median Imputation)
+ Day 28: Categorical Missing Value Imputation
+ Day 29: Outlier Detection & Removal (Z-Score, IQR Trimming vs Capping)
+ Day 30: Feature Scaling (Standardization vs Normalization & when to use which)
+ Day 31: Mathematical Transformations (Log, Square Root, Box-Cox, Yeo-Johnson)
+ Day 32: Categorical Encoding (One-Hot vs Ordinal vs Target Encoding)
+ Day 33: ColumnTransformer in Scikit-Learn (Must Watch — saves hundreds of lines of code)
+ Day 34: Scikit-Learn Pipeline (Must Watch — prevents data leakage between train & test)
+ Day 35: FunctionTransformer & PowerTransformer in Pipelines
+Module 2: Linear Regression & Gradient Descent Math (~9 Videos)
+This is the mathematical core of all AI. The Gradient Descent you learn here is the exact same engine used in Deep Learning and Neural Networks.
+
+ Day 48: Simple Linear Regression (Ordinary Least Squares math derivation)
+ Day 49: Multiple Linear Regression (Matrix formulation & Normal Equation)
+ Day 50: Gradient Descent from Scratch (Deriving the partial derivative of MSE by hand)
+ Day 51: Batch Gradient Descent vs Stochastic Gradient Descent (SGD)
+ Day 52: Mini-Batch Gradient Descent (How modern neural nets update weights)
+ Day 53: Polynomial Regression & Bias-Variance Tradeoff
+ Day 54: Ridge Regression (L2 Regularization) — Math proof & Code from Scratch
+ Day 55: Lasso Regression (L1 Regularization) — Math proof & Sparsity concept
+ Day 56: ElasticNet Regression
+Module 3: Classification & Probability Math (~7 Videos)
+How models make discrete decisions and calculate confidence probabilities.
+
+ Day 57: Logistic Regression Intuition (Perceptron trick & Sigmoid curve)
+ Day 58: Logistic Regression Math (Maximum Likelihood Estimation & Log-Loss derivation)
+ Day 59: Coding Logistic Regression with Gradient Descent from Scratch
+ Day 60: Softmax Regression (Multinomial Logistic Regression for multi-class)
+ Day 61: Decision Trees Math (Entropy, Gini Impurity, and Information Gain formulas)
+ Day 62: Decision Trees Hyperparameters (max_depth, min_samples_split, preventing overfitting)
+Module 4: Ensembles & Gradient Boosting (~7 Videos)
+These are the algorithms that dominate tabular data in the real world.
+
+ Day 63: Ensemble Techniques (Voting Classifier, Bagging intuition)
+ Day 64: Random Forest (Bootstrap Aggregation, Feature Subsampling, Out-of-Bag error)
+ Day 65: AdaBoost (Math derivation of sample weights & Code from Scratch)
+ Day 66: Gradient Boosting (Predicting pseudo-residuals, shrinkage/learning rate math)
+ XGBoost Video(s): Extreme Gradient Boosting (Similarity scores, gain, tree pruning)
+Module 5: Unsupervised Learning & Critical Metrics (~8 Videos)
+Understanding high-dimensional data, clustering, and how to actually evaluate a model.
+
+ K-Means Clustering: Centroid initialization, WCSS, Elbow Method math & code from scratch
+ DBSCAN: Density-based clustering (handling noise and irregular cluster shapes)
+ PCA (Principal Component Analysis): Covariance matrix, Eigenvalues, and Eigenvectors proof
+ Evaluation Metrics Core:
+Confusion Matrix, Precision, Recall, and F1-Score
+When accuracy is a lie (Imbalanced data)
+ROC Curve & ROC-AUC Simplified (The final video #134 in the playlist)
